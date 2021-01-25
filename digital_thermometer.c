@@ -17,14 +17,14 @@
 
 /* Makra do ³atwiejszej obs³ugi diod LED */
 
-#define BLUE_LED_ON		PORTB |= (1 << PB0)
+#define BLUE_LED_ON	PORTB |= (1 << PB0)
 #define BLUE_LED_OFF	PORTB &= ~ (1 << PB0)
 #define GREEN_LED_ON	PORTD |= (1 << PD0)
 #define GREEN_LED_OFF	PORTD &= ~(1 << PD0)
 #define YELLOW_LED_ON	PORTD |= (1 << PD3)
 #define YELLOW_LED_OFF	PORTD &= ~(1 << PD3)
-#define RED_LED_ON		PORTD |= (1 << PD6)
-#define RED_LED_OFF		PORTD &= ~(1 << PD6);
+#define RED_LED_ON	PORTD |= (1 << PD6)
+#define RED_LED_OFF	PORTD &= ~(1 << PD6);
 
 uint16_t adc_value;
 uint16_t voltage_value;
